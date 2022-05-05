@@ -3,7 +3,7 @@ module "test-targetgroup" {
   target_group_name = "Test-TG"
   target_group_port = "80"
   target_type = "instance"
-  target_group_path  = "/"
+  target_group_path  = "/var/www/html/info.php"
   target_group_protocol            = "HTTP"
   target_group_healthy_threshold   = 2
   target_group_unhealthy_threshold = 2
