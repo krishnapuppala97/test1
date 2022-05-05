@@ -9,6 +9,7 @@ module "test-targetgroup" {
   target_group_unhealthy_threshold = 2
   timeout             = 5
   interval            = 30
+  vpc_id   = "vpc-0e41b6532f395c9ad"
 }
 
 resource "aws_lb_target_group_attachment" "test" {

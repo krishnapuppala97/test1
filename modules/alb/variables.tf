@@ -35,8 +35,3 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
-
-variable "vpc_id" {
-  description = "vpc id"
-  default     = "null"
-}
