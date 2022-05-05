@@ -1,6 +1,6 @@
 module "test-app-server" {
   source = "../../modules/ec2"
-  ami                  = "ami-08e4e35cccc6189f4"
+  ami                  = "ami-0c4f7023847b90238"
   instance_type        = "t2.micro"
   vpc_security_group_ids = [module.test-sg.sg_id]
   subnet_id             = "subnet-0c2b8303bcfcc73dd"
