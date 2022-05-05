@@ -11,4 +11,5 @@ module "test-sg" {
   egress_from_port         = 0
   egress_to_port           = 0
   egress_protocol          = "-1"
+  security_group_vpc_id    = "vpc-0e41b6532f395c9ad"
 }
