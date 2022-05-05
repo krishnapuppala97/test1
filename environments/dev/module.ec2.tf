@@ -3,6 +3,7 @@ module "test-app-server" {
   ami                  = "ami-08e4e35cccc6189f4"
   instance_type        = "t2.micro"
   vpc_security_group_ids = [module.test-sg.sg_id]
+  subnet_id             = "subnet-0c2b8303bcfcc73dd"
   key_name             = "task"
   associate_public_ip_address = true
   user_data = <<EOF
