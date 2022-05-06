@@ -39,4 +39,4 @@ plan-destroy: validate
 destroy: init
 	@echo "running terraform destroy"
 	cd environments/$(LAYER) && \
-	terraform destroy -force -no-color
+	terraform destroy -auto-approve -no-color
