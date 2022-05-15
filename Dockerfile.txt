@@ -1,4 +1,0 @@
-FROM donglsheng/tomcat9_jdk8
-MAINTAINER manish
-COPY target/gameoflife.war /usr/local/soft/webapps/gameoflife.war
-CMD ["/usr/local/soft/bin/cataline.sh","run"]
